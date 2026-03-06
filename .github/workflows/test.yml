@@ -5,11 +5,11 @@ on:
    branches:
       - main
 jobs:
-  build:
+ build:
     runs-on:
       - self-hosted
       - Windows
       - x64
-     steps:
+    steps:
       - uses: actions/checkout@v3
       - run: echo "Test du Runner sous MS Windows 11"
