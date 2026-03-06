@@ -5,7 +5,7 @@ on:
 jobs:
   deploy:
     runs-on: [self-hosted, linux, x64]
-  steps:
+    steps:
      - name: Récupération du dépôt
       uses: actions/checkout@v4
     
